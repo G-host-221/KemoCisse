@@ -1,0 +1,631 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   
+}
+
+body{
+    background-color: rgb(81, 189, 189);
+    
+}
+
+
+ul{
+    
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    height: 150px;
+    
+}
+ul .titre{
+    color: aqua;  
+    font-family: 'Times New Roman',;  
+    margin-top: 10px;  
+    display: flex;  
+    position: absolute;   
+    top: 5,5%;   
+    left: 5%;   
+    font-size: 40px;
+    align-self: center;  
+    align-items: start;
+
+}
+
+ul li{
+    list-style: none;  
+    margin-left: 70px;  
+    margin-top: 10px;   
+    margin-right: 10px; /* Ajuste cette valeur pour l'espacement à droite */  
+    font-size: 14px;   
+    display: flex;  
+    align-self: center;
+    position: relative;
+    left: 20%;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: rgb(255, 0, 0);
+}
+
+.con{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    margin-left: 2%;
+    color: white;
+    padding-top: 100px ;
+}
+.con .par{
+    padding-left: -10px;
+    padding-bottom: 25px;
+    font-family:Arial,;
+    font-size: 50px;
+    margin-top: 3%;
+    letter-spacing: 2px;   
+}
+
+.con .btn{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-left: 15%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.con .btn a{
+     text-decoration: none;
+     color: white;
+     transition: .3s ease;
+}
+.btn:hover{
+    background-color: rgb(255, 0, 0);
+}
+.par span{
+    color: black;
+    font-size: 60px;
+    font-family:'Times New Roman',;
+}
+
+
+
+.Fisrt{
+    margin-left: 75%;  
+    margin-top: -10%;  
+    border: 5px solid #000;  
+    border-radius: 50%;  
+    width: 400px;   
+    height: 400px; 
+    object-fit: cover; 
+    
+}
+
+.titre span{
+    color: white;
+    font-size: 40px;
+    
+}
+
+
+
+
+
+.Apropos{
+    background-color:rgb(97, 231, 231);
+    
+}
+
+.me{
+    margin-left: 70%;  
+    margin-top: -20%;  
+    border: 5px solid white;  
+    border-radius: 50%;  
+    width: 300px;   
+    height: 300px; 
+    object-fit:cover;   
+}
+
+.title{
+    color: rgb(0, 0, 0);  
+    font-family: 'Times New Roman',;   
+    display: flex;  
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.para {    
+    font-family: 'Times New Roman'; 
+    font-size: 20px;  
+    margin-top: 2%;    
+    transform: translateY(100px);
+    margin-left: 2%;
+}
+
+span{
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+
+}
+
+.Apropos .bt{
+    width: 200px;
+    height: 50px;
+    background-color: black;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 10%;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-left: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Apropos .bt a{
+    text-decoration: none;
+    color: white;
+    transition: .3s ease;
+}
+.bt:hover{
+   background-color: rgb(255, 0, 0);
+}
+
+.projets{
+    background-color: rgb(87, 207, 207);
+    min-height: 500px;
+    
+}
+
+.tete{
+    font-family: 'Times New Roman';
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.P1{
+    font-size: 20px;  
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+.B1:hover{
+    background-color: rgb(255, 0, 0);
+ }
+
+.B1{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20%;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-left: 8%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Form1{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 2%;  
+     
+    margin-top: 50px;
+}
+
+.P1     {
+    color: white;
+    font-family: 'Times New Roman'; 
+    font-size: 20px;      
+    transform: translateY(20%);
+    margin-left: 8%;
+    
+
+}
+.P2{
+    font-size: 20px;  
+    margin-top: 2%;
+    margin-left: 2%;
+
+}
+.B2:hover{
+    background-color: rgb(255, 0, 0);
+ }
+
+.B2{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20%;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-left: 8%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.Form2{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 40%;  
+    margin-top: -16.2%; 
+}
+
+.P2{
+    color: white;
+    font-family: 'Times New Roman'; 
+    font-size: 20px;      
+    transform: translateY(20%);
+    margin-left: 8%;
+}
+.Form3{
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    border-radius: 10px;
+    margin-left: 80%;  
+    margin-top: -16.2%; 
+}
+.P3{
+    font-size: 20px;  
+    margin-top: 2%;
+    margin-left: 2%;
+    transform: translateY(20%);
+
+}
+.B3:hover{
+    background-color: rgb(255, 0, 0);
+ }
+
+.B3{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 20%;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-left: 8%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+.P3{
+    color: white;
+    font-family: 'Times New Roman'; 
+    font-size: 20px;      
+    transform: translateY(20%);
+    margin-left: 8%;
+}
+
+
+
+
+.Competences{
+    background-color: rgb(207, 235, 235);
+    min-height: 500px;
+}
+
+.T1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.fisrt {  
+    width: 600px;  
+    padding: 20px;  
+    background-color: #6ac7bf;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    margin-top: 7%;  
+    margin-left: 50px;
+    height: 150px;
+   
+}
+.TS{
+    text-align: center
+}
+
+.Soft {  
+    width: 100%;  
+    background-color: #43989b;  
+    border-radius: 5px;  
+    overflow: hidden;  
+    margin: 1px 0; 
+    margin-left: 10px; 
+
+}  
+.SoftSK {  
+    height: 10px;  
+    width: 75%; /* Changez cette valeur pour ajuster le niveau */  
+    background-color: #c8e4e4;  
+}  
+
+.GP{
+    background-color: #6ac7bf;
+}
+
+.Resol {  
+    width: 100%;  
+    background-color: #43989b;  
+    border-radius: 5px;  
+    overflow: hidden;  
+    margin: 1px 0; 
+    margin-left: 10px; 
+
+}  
+.Res {  
+    height: 10px;  
+    width: 55%; /* Changez cette valeur pour ajuster le niveau */  
+    background-color: #c8e4e4;  
+}  
+
+.RP{
+    background-color: #6ac7bf;
+}
+
+.Adapt {  
+    width: 100%;  
+    background-color: #43989b;  
+    border-radius: 5px;  
+    overflow: hidden;  
+    margin: 1px 0; 
+    margin-left: 10px; 
+
+}  
+.Ada {  
+    height: 10px;  
+    width: 85%;  
+    background-color: #c8e4e4;  
+}  
+
+.AD{
+    background-color: #6ac7bf;
+}
+
+
+.Second {  
+    width: 600px; 
+    padding: 20px;  
+    background-color: #6ac7bf;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    margin-top: -12%;   
+    margin-left: 55%;
+    height: 150px;
+   
+}
+.HS{
+    text-align: center
+}
+
+.N1 {  
+    width: 100%;  
+    background-color: #43989b;  
+    border-radius: 5px;  
+    overflow: hidden;  
+    margin: 1px 0; 
+    margin-left: 10px; 
+
+}  
+.HYP {  
+    height: 10px;  
+    width: 95%;  
+    background-color: #c8e4e4;  
+}  
+.HT{
+    background-color: #6ac7bf;
+}
+
+
+.N2 {  
+    width: 100%;  
+    background-color: #43989b;  
+    border-radius: 5px;  
+    overflow: hidden;  
+    margin: 1px 0; 
+    margin-left: 10px; 
+
+}  
+.CSS {  
+    height: 10px;  
+    width: 50%;  
+    background-color: #c8e4e4;  
+}  
+.CA{
+    background-color: #6ac7bf;
+}
+
+.N3 {  
+    width: 100%;  
+    background-color: #43989b;  
+    border-radius: 5px;  
+    overflow: hidden;  
+    margin: 1px 0; 
+    margin-left: 10px; 
+
+}  
+.JAVA {  
+    height: 10px;  
+    width: 75%;  
+    background-color: #c8e4e4;  
+}  
+.JS{
+    background-color: #6ac7bf;
+}
+
+.N4 {  
+    width: 100%;  
+    background-color: #43989b;  
+    border-radius: 5px;  
+    overflow: hidden;  
+    margin: 1px 0; 
+    margin-left: 10px; 
+
+}  
+.VsC {  
+    height: 10px;  
+    width: 99%;   
+    background-color: #c8e4e4;  
+}  
+.VC{
+    background-color: #6ac7bf;
+}
+
+
+.Contact{
+    background-color: rgb(0, 0, 0);
+    min-height: 600px;
+    margin-top: 10%;
+}
+
+.Ti{
+    color: white;
+    padding: 20px;
+    margin-left: 35%;
+    font-family: 'Times New Roman';
+}
+
+.enn{
+    color: aqua;
+    font-size: larger;
+}
+
+.en{
+    color: aqua;
+    font-size: larger;
+}
+
+
+
+.Prenom {  
+    margin-bottom: 15px; /* Espace entre les éléments du formulaire */  
+}  
+
+.Lab {  
+    display: block; /* Affiche le label comme un bloc */  
+    margin-bottom: 5px; /* Espace sous le label */  
+    margin-left: 25%;
+    color: white;
+}  
+
+.Noo1 {  
+    width: 20%; /* Prend toute la largeur */  
+    height: 10px; /* Hauteur de la zone de texte */  
+    padding: 10px; /* Espacement intérieur */  
+    border: 1px solid #ccc; /* Bordure grise */  
+    border-radius: 4px; /* Coins arrondis */  
+    resize: none; /* Empêche le redimensionnement */  
+    margin-left: 25%;
+} 
+
+.Nom{
+    margin-bottom: 15px; /* Espace entre les éléments du formulaire */  
+    margin-top: -5%;
+}
+
+.Lab1{
+    display: block; /* Affiche le label comme un bloc */  
+    margin-bottom: 5px; /* Espace sous le label */  
+    margin-left: 50%;
+    color: white;
+    
+
+}
+
+.Noo{
+    width: 20%; /* Prend toute la largeur */  
+    height: 10px; /* Hauteur de la zone de texte */  
+    padding: 10px; /* Espacement intérieur */  
+    border: 1px solid #ccc; /* Bordure grise */  
+    border-radius: 4px; /* Coins arrondis */  
+    resize: none; /* Empêche le redimensionnement */  
+    margin-left: 50%;   
+}
+
+.Sujet {  
+    margin-bottom: 15px; /* Espace entre les éléments du formulaire */  
+}  
+
+.Lab2 {  
+    display: block; /* Affiche le label comme un bloc */  
+    margin-bottom: 5px; /* Espace sous le label */  
+    margin-left: 25%;
+    color: white;
+}  
+
+.Noo2 {  
+    width: 45%; /* Prend toute la largeur */  
+    height: 10px; /* Hauteur de la zone de texte */  
+    padding: 10px; /* Espacement intérieur */  
+    border: 1px solid #ccc; /* Bordure grise */  
+    border-radius: 4px; /* Coins arrondis */  
+    resize: none; /* Empêche le redimensionnement */  
+    margin-left: 25%;
+} 
+
+.texte {  
+    margin-bottom: 15px; /* Espace entre les éléments du formulaire */  
+}  
+
+.Noo3 {  
+    width: 45%; /* Prend toute la largeur */  
+    height: 200px; /* Hauteur de la zone de texte */  
+    padding: 10px; /* Espacement intérieur */  
+    border: 1px solid #ccc; /* Bordure grise */  
+    border-radius: 4px; /* Coins arrondis */  
+    resize: none; /* Empêche le redimensionnement */  
+    margin-left: 25%;
+}
+
+
+.bouton{
+    
+        width: 200px;
+        height: 50px;
+        background-color: rgb(13, 221, 221);
+        font-size: 18px;
+        font-weight: bolder;
+        margin-top: 2%;
+        font-weight: bolder;
+        margin-bottom: 10px;
+        margin-left: 40%;
+        border-radius: 10px;
+        cursor: pointer;
+}
+
+.bouton a{
+    text-decoration: none;
+     color: white;
+     transition: .3s ease;
+}
+
+.bouton:hover{
+    background-color: rgb(255, 0, 0);
+ }
